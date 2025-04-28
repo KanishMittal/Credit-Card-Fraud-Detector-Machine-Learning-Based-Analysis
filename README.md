@@ -101,7 +101,7 @@ Credit-Card-Fraud-Detector-Machine-Learning-Based-Analysis/
 
 ## 🤝 Contributing
 
-Pull requests are welcome!  
+Pull requests are welcome!!  
 For major changes, please open an issue first to discuss what you would like to change.
 
 ## 📄 License
