@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Credit Card Fraud Detector</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Credit Card Fraud Detector</h1>
+        <form id="fraudForm">
+            <label for="time">Time:</label>
+            <input type="number" id="time" name="time" required><br>
+
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" required><br>
+
+            <!-- Inputs for V1 to V28 -->
+            <div class="v-inputs">
+                <h3>Transaction Features (V1 - V28)</h3>
+                <div class="grid">
+                    <!-- Generating V1 to V28 -->
+                    <!-- Just paste this block repeatedly or generate via script -->
+                    <!-- Example shown below for all -->
+                    <!-- You can make this a loop in React or JS in production -->
+                    <!-- Below is manual HTML for V1 to V28 -->
+                    <!-- Copy-paste pattern for each V -->
+                    <!-- Or use JavaScript to dynamically add them -->
+                    <!-- Begin V1 to V28 inputs -->
+                    <script>
+                        for (let i = 1; i <= 28; i++) {
+                            document.write(`
+                                <label for="V${i}">V${i}:</label>
+                                <input type="number" step="any" id="V${i}" name="V${i}" required><br>
+                            `);
+                        }
+                    </script>
+                    <!-- End V1 to V28 -->
+                </div>
+            </div>
+
+            <button type="submit">Check for Fraud</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
