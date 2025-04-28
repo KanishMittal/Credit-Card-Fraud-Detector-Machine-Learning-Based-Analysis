@@ -67,3 +67,43 @@ Due to the imbalanced dataset, **Precision**, **Recall**, and **ROC-AUC** were g
    ```bash
    git clone https://github.com/KanishMittal/Credit-Card-Fraud-Detector-Machine-Learning-Based-Analysis.git
    cd Credit-Card-Fraud-Detector-Machine-Learning-Based-Analysis
+   ```
+
+2. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the main notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+4. Execute the steps in sequence inside the notebook.
+
+## 📂 Project Structure
+
+```
+Credit-Card-Fraud-Detector-Machine-Learning-Based-Analysis/
+│
+├── data/               # Dataset files (if any)
+├── models/             # Trained models saved here
+├── notebooks/          # Jupyter notebooks for analysis
+├── requirements.txt    # Required Python packages
+└── README.md           # Project documentation
+```
+
+## 🚀 Future Improvements
+
+- Implement deep learning models (ANN, CNN) for further performance boosts.
+- Build a real-time fraud detection API using Flask or FastAPI.
+- Deploy the model as a web application for live demonstrations.
+
+## 🤝 Contributing
+
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss what you would like to change.
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
